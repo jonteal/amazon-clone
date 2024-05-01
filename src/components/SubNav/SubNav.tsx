@@ -18,7 +18,10 @@ const SubNav = () => {
   return (
     <div className="flex flex-row bg-slate-700 py-3 justify-between">
       {links.map((link) => (
-        <Link to="/" className="text-zinc-100 mx-2 font-semibold text-sm">
+        <Link
+          to="/"
+          className="text-zinc-100 mx-2 font-semibold text-sm hover:bg-sky-700 hover:my-0"
+        >
           {link.label}
         </Link>
       ))}

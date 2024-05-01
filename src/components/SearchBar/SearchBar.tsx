@@ -6,7 +6,7 @@ const SearchBar = () => {
       <select className="bg-zinc-200 w-14 rounded-l-md px-2" name="" id="">
         <option className="text-lg font-thin">All</option>
       </select>
-      <input className="h-10" />
+      <input className="h-10 w-full px-3" />
       <button className="bg-yellow-400 w-10 flex flex-row justify-center items-center rounded-r-md">
         <IoIosSearch className="text-xl" />
       </button>
